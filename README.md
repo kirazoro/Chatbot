@@ -36,29 +36,28 @@ chatbot-project/
 ## 🚀 Installation & Setup
 
 ### 1️⃣ Clone the repository
-```sh
+
 git clone 
 cd chatbot-project
-2️⃣ Create a virtual environment
-sh
-Copy
-Edit
+
+####2️⃣ Create a virtual environment
+
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate     # On Windows
-3️⃣ Install dependencies
-sh
-Copy
-Edit
+
+###3️⃣ Install dependencies
+
 pip install -r requirements.txt
-4️⃣ Set up NVIDIA API key
+
+###4️⃣ Set up NVIDIA API key
+
 Replace YOUR_API_KEY_HERE in main.py with your actual NVIDIA API key.
 
-5️⃣ Run the FastAPI server
-sh
-Copy
-Edit
+###5️⃣ Run the FastAPI server
+
 uvicorn main:app --reload
+
 🔗 Open in browser: http://127.0.0.1:8000
 
 🎨 Frontend UI Overview
