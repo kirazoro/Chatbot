@@ -75,6 +75,6 @@ uvicorn main:app --reload
 ###🎤 Voice input and text-to-speech integration
 
 
-#🎉 Built with ❤️ by [Chitrangi]
+**#🎉 Built with ❤️ by [Chitrangi]**
 
 
