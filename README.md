@@ -60,26 +60,21 @@ uvicorn main:app --reload
 
 🔗 Open in browser: http://127.0.0.1:8000
 
-🎨 Frontend UI Overview
+##🎨 Frontend UI Overview
 📌 UI Features
-✅ Clean and minimal design
-✅ Chat messages with smooth animations
-✅ User and AI messages displayed separately
-✅ Auto-scroll and responsive layout
-🛠️ API Endpoints
-Method	Endpoint	Description
-POST	/chat	Sends user input to the chatbot and returns a response
-📌 Future Enhancements
-🏗️ Add user authentication
-🌍 Support more languages for translation
-🎤 Voice input and text-to-speech integration
-🎉 Built with ❤️ by [Chitrangi]
+###✅ Clean and minimal design
+###✅ Chat messages with smooth animations
+###✅ User and AI messages displayed separately
+###✅ Auto-scroll and responsive layout
+##🛠️ API Endpoints
+--Method	Endpoint	Description
+ ---POST	/chat	Sends user input to the chatbot and returns a response
+##📌 Future Enhancements
+###🏗️ Add user authentication
+###🌍 Support more languages for translation
+###🎤 Voice input and text-to-speech integration
 
 
----
+#🎉 Built with ❤️ by [Chitrangi]
 
-### 📄 **requirements.txt**
-```txt
-fastapi
-uvicorn
-openai
+
